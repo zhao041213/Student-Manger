@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Electron build output
+/dist_electron/
+
+# Uploads directory
+/src/server/uploads/
+
+# Build resources (icons, etc.)
+/build/
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.cursor/
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.VSCodeCounter/*
+java-backend/target/*
+playwright-report/*
+test-results/*
+
+uploads_data/*
+java-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/*
+java-backend/target/maven-status/maven-compiler-plugin/compile/*
+java-backend/target/maven-status/maven-compiler-plugin/*
+java-backend/target/surefire-reports/*
